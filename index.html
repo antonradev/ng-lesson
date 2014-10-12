@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ng-lessons</title>
+        <meta charset="utf-8">
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body ng-app="NGLesson">
+
+        <div ng-controller="DefaultData">
+            <app-header></app-header>
+        </div>
+        
+    <app-nav></app-nav>
+    <div ng-controller="Home_Page">
+        <div ng-view></div>
+    </div><!-- end ng-controller Content -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+</body>
+</html>

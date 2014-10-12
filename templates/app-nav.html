@@ -1,0 +1,12 @@
+<div class="container" ng-controller="Navigation">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="app-nav">
+                <li ng-repeat="navlink in navLinks">
+                    <a ng-class="{active: $index === selectedLink}" 
+                       ng-click="selectLink($index)" href="#{{navlink.pageURI}}">{{navlink.pageName}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
