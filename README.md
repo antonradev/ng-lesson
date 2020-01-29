@@ -11,4 +11,7 @@ What's in there:
 * /sass - contains .scss main file and mixin file
 * Gruntfile.js - Basic Grunt file for automation (currently for SASS module only and watch task)
 
+NGLesson elements are used in the UI development of https://bvop.org
+Thanks for supporting,
+The creator
 
